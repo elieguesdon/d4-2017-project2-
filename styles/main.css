@@ -1,0 +1,26 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+header{
+  border: 1px solid #000;
+  min-height: 80vh;
+background-image: url(images/bg-header01.jpg);
+background-position: top center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.header-content {
+  color: rgb(255,255,255);
+border: 1px solid #fff;
+text-align: center;
+}
