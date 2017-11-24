@@ -3,20 +3,19 @@ body{
 }
 
 
-
-
-
 header{
-  border: 1px solid #000;
-  min-height: 80vh;
-background-image: url(images/bg-header01.jpg);
+min-height: 80vh;
+background-image: url(images/photo1.jpg);
 background-position: top center;
 background-repeat: no-repeat;
 background-size: cover;
 display: flex;
 align-items: center;
 justify-content: center;
+}
 
+header h1 {
+  font-size: 6em;
 }
 
 .header-content {
