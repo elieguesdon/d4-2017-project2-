@@ -37,12 +37,13 @@ padding-bottom: -20%;
 }
 
 .mywork li{
-  max-width: 320px;
+  max-width:410px;
 
 }
 
 .mywork img{
   width: 100%;
+
 }
 
 
@@ -66,9 +67,9 @@ background-color: #000;
 
 .nastyadvert {
   background-color: #000;
-  color: #fff;
+  color: ;
   min-height: 90vh;
-  background-image: url(Fitzroy.jpg);
+  background-image: url(photo1.jpg);
   background-size: cover;
   background-position:center top;
   background-attachment: fixed;
@@ -86,7 +87,7 @@ background-color: #000;
 }
 
 footer {
-  background-color: #ffd000;
+  background-color: #000;
   color: #000000;
   padding : 3em;
 margin :  0;
@@ -94,7 +95,7 @@ position: relative;
 }
 
 footer::before {
-  background-color: #ffd000;
+  background-color: #000;
   content: " ";
   display:block;
   width: 120px;
