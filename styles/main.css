@@ -1,25 +1,107 @@
-body{
-  font-family: 'Montserrat', sans-serif;
+body { background-color: #ffffff;
+color: #000000
+
+}
+
+section {
+  max-width:  50em;
+  margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 10%;
+  margin-left: auto;
+
 }
 
 
-header{
-min-height: 80vh;
-background-image: url(images/photo1.jpg);
-background-position: top center;
-background-repeat: no-repeat;
-background-size: cover;
-display: flex;
-align-items: center;
-justify-content: center;
+
+h2 {max-width: 50em;
 }
 
-header h1 {
-  font-size: 6em;
+header {
+  background-color: #000000;
+  color: #ffd000;
+  padding : 6em;
+margin :  0;
+margin-bottom:5% ;
+padding-bottom: -20%;
 }
 
-.header-content {
-  color: rgb(255,255,255);
-border: 1px solid #fff;
-text-align: center;
+.mywork ul{
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mywork li{
+  max-width: 320px;
+
+}
+
+.mywork img{
+  width: 100%;
+}
+
+
+.newheader {
+background: #000;
+margin-bottom: 10%
+
+}
+
+.newheader::after {
+content:" ";
+display:block;
+width: 120px;
+height: 120px;
+
+transform: rotate(45deg)translateX(-30%)translateY(50%);
+position: absolute;
+left: 50%;
+background-color: #000;
+}
+
+.nastyadvert {
+  background-color: #000;
+  color: #fff;
+  min-height: 90vh;
+  background-image: url(Fitzroy.jpg);
+  background-size: cover;
+  background-position:center top;
+  background-attachment: fixed;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nastyadvert h1 {
+  font-size: 4em;
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  text-shadow: 1px 1px 2px black;
+}
+
+footer {
+  background-color: #ffd000;
+  color: #000000;
+  padding : 3em;
+margin :  0;
+position: relative;
+}
+
+footer::before {
+  background-color: #ffd000;
+  content: " ";
+  display:block;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 100%;
 }
