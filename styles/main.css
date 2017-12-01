@@ -4,7 +4,7 @@ color: #000000
 }
 
 section {
-  max-width:  50em;
+  max-width:100%;
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 10%;
@@ -12,11 +12,58 @@ section {
 
 }
 
-
-
-h2 {max-width: 50em;
+img {
+  max-width: 30%;
+margin-right: 50%;
+margin-bottom: 10%;
+margin-top: -17%;
 }
 
+
+
+p {
+  position:relative;
+  text-align:left;
+  max-width: 30em;
+  margin-left:50%;
+
+}
+
+article h2 {
+  position:relative;
+  text-align:left;
+  max-width: 30em;
+  margin-left:50%;
+
+}
+
+
+
+.apacom h2 {
+  position:relative;
+  text-align:left;
+  max-width: 30em;
+  margin-left:50%;
+
+}
+
+.typo {
+  margin-top: -20px;
+}
+
+.typo h2 {
+  position:relative;
+  text-align:left;
+  max-width: 30em;
+  margin-left:50%;
+}
+
+
+
+.matières{
+  background-color: #fff;
+
+}
 header {
   background-color: #000000;
   color: #ffd000;
@@ -26,25 +73,21 @@ margin-bottom:5% ;
 padding-bottom: -20%;
 }
 
-.mywork ul{
-  list-style-type: none;
-  margin: 0;
-  margin-bottom: 30px;
-  padding: 0;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+
+
+
+.chapitre {
+background-color: #fff;
+width:800px;
+	height:300px;
+margin-top: 8%;
+width: 100em;
+position:relative;
+text-align:left;
+max-width: 30em;
+margin-left:50%;
 }
 
-.mywork li{
-  max-width:410px;
-
-}
-
-.mywork img{
-  width: 100%;
-
-}
 
 
 .newheader {
@@ -68,16 +111,61 @@ background-color: #000;
 .nastyadvert {
   background-color: #000;
   color: ;
-  min-height: 90vh;
-  background-image: url(photo1.jpg);
-  background-size: cover;
+  min-height: 150vh;
+  background-image: url(./images/3posters.jpg);
+  background-size:contain;
   background-position:center top;
   background-attachment: fixed;
   color: black;
   display: flex;
   align-items: center;
   justify-content: center;
+max-width: 100%;
 }
+
+.nastyadvert02 {
+  background-color: #000;
+  color: ;
+  min-height: 150vh;
+  background-image: url(./images/3posters2.jpg);
+  background-size:contain;
+  background-position:center top;
+  background-attachment: fixed;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+max-width: 100%;
+}
+
+.nastyadvert03 {
+  background-color: #fff;
+  color: ;
+  min-height: 150vh;
+  background-image: url(./images/apacommockup.jpg);
+  background-size:contain ;
+  background-position:top;
+  background-attachment: fixed;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+max-width: 150%;
+}
+
+.nastyadvert04 {
+  background-color: #fff;
+  color: ;
+  min-height: 150vh;
+  background-image: url(./images/boat.jpg);
+  background-size:contain ;
+  background-position:top;
+  background-attachment: fixed;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+max-width: 150%;
 
 .nastyadvert h1 {
   font-size: 4em;
@@ -92,17 +180,4 @@ footer {
   padding : 3em;
 margin :  0;
 position: relative;
-}
-
-footer::before {
-  background-color: #000;
-  content: " ";
-  display:block;
-  width: 120px;
-  height: 120px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  border-radius: 100%;
 }
