@@ -3,6 +3,8 @@ html {
 }
 
 section {
+  font-family: 'Merriweather', serif;
+color: #000;
 }
 
 
@@ -15,23 +17,34 @@ body {
   text-align: center;
 }
 
-ul {
-  color: #fff;
+.nastyadvert h1 {
+  font-size: 70px;
+
+
 }
 
-
+.matières{
+  color: #000;
+}
 
 p {margin-bottom: 1.3em;}
 
-h1, h2, h3, h4 {
+h1 {
   margin: 1.414em 0 0.5em;
 font-family: 'Contrail One', cursive;
   font-weight: inherit;
   line-height: 1.2;
-  margin-left: auto;
-  margin-right: auto;
+}
+
+h2 {
+  margin: 1.414em 0 0.5em;
+font-family: 'Contrail One', cursive;
+  font-weight: inherit;
+  line-height: 1.2;
 
 }
+
+
 
 h1 {font-family: 'Contrail One', cursive;
   margin-top: 0;
@@ -43,8 +56,6 @@ h2 {font-size: 4.236em;
 
 }
 
-h3 {font-size: 2.618em;}
 
-h4 {font-size: 1.618em;}
 
 small, .font_small {font-size: 0.618em;}
