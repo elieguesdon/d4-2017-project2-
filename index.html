@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Cutive+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
 
 
 <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
@@ -19,10 +22,16 @@
 <link rel="stylesheet" href="styles/typo.css">
 <link rel="shortcut icon" href="../favicon.ico">
 <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-<link rel="stylesheet" type="text/css" href="css/demo.css" />
-<link rel="stylesheet" type="text/css" href="css/icons.css" />
+<link rel="stylesheet" type="text/css" href="css/default.css" />
+<link rel="stylesheet" type="text/css" href="css/multilevelmenu.css" />
 <link rel="stylesheet" type="text/css" href="css/component.css" />
+<link rel="stylesheet" type="text/css" href="css/animations.css" />
 <script src="js/modernizr.custom.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="js/demo.js"></script>
+    <script> type="text/javascript"  src="demo.js"></script>
+
+
 
   </head>
 
@@ -31,18 +40,21 @@
     <div class="header-content-block"  >
 
         <span onmouseover="this.innerHTML='GRAPHIQUE DESIGN'"
-        onmouseout="this.innerHTML='ELIE GUESDON VENNERIE'">ELIE GUESDON VENNERIE</span
+        onmouseout="this.innerHTML='ELIE GUESDON VENNERIE'">ELIE GUESDON VENNERIE</span>
 
-        <nav class="menu">
-          <ul>
-            <li><a class="menu" href="#section1">Présentation</a></li>
-            <li><a class="menu" href="#section2">Illustrations personnelles</a></li>
-            <li><a class="menu" href="#section3">Identité visuelle</a></li>
+        <div class="menu">
+          <ol>
+            <li><a class="js-scrollTo" href="#section1">Présentation</a></li>
+            <li><a class="js-scrollTo" href="#section2">Illustrations</a></li>
+            <li><a class="js-scrollTo" href="#section3">Projets</a></li>
 
-            <li><a class="menu" href="#section4">Typographie</a></li>
+<li><a class="js-scrollTo" href="#section7">Photographie</a></li>
+<li><a class="js-scrollTo" href="#footerwrap">Contact</a></li>
 
-          </ul>
-            </nav>
+</ol>
+</div>
+
+
 
         <p></p>
     </div>
@@ -59,12 +71,15 @@
 
 
 
+</div>
 
 <article class="projet flexright">
 <div class="chapitre1" id="section1">
 
   <h2>Présentation</h2>
-<p>relationships, and thought itself, arrayed like a standing wave in the web of our communications. Ours is a world that is both everywhere and nowhere, but it is not where bodies live.</p>
+<p>Je m’appelle Elie Guesdon Vennerie, et je suis étudiant en Master 1 à l’ECV Bordeaux en Design Graphique.
+  Actuellement j’ai décidé de m’orienter pour mon master vers une option PUB, afin d’approfondir ma réflexion autour d’un concept, sa mise en forme et son application graphique.
+</p>
 
 </div>
 
@@ -73,20 +88,23 @@
 
 <div class="nastyadvert">
   <div class="container">
-    <h1> </h1>
-    <p></p>
+<h1>ETUDIANT DESIGN GRAPHIQUE</h1>
+ <p></p>
     </div>
   </div>
 
   <article class="projet-perso1 flexleft">
 <div class="chapitre1" id="section2">
 
-    <h2>Illustration Personnelles</h2>
-  <p>relationships, and thought itself, arrayed like a standing wave in the web of our communications. Ours is a world that is both everywhere and nowhere, but it is not where bodies live.</p>
+    <h2>Illustration</h2>
+  <p>
+Voici quelques échantillons de mes illustrations personnelles. Je me suis mis à dessiner au début de mes études, et j’en ai fait une passion. Un posca, une feuilles, ou alors de l’encre, de la peinture, une toile. Je m’essai à différentes techniques et réalisations.</p>
+  <a href="illu.html" alt="VOIR PROJETS">VOIR PROJET</a>
+
 
   </div>
 
-    <img class="workimg" src="styles/images/800/book.png" alt="ton image"/></a>
+    <img class="workimg" src="styles/images/800/prince.jpg" alt="ton image"/></a>
 </article>
 
 
@@ -103,9 +121,9 @@
   <article class="projet-id flexright">
   <div class="chapitre1" id="section3">
 
-    <h2>Identité Visuelle</h2>
-  <p>relationships, and thought itself, arrayed like a standing wave in the web of our communications. Ours is a world that is both everywhere and nowhere, but it is not where bodies live.</p>
-<a href="identité.html" alt="VOIR PROJET">VOIR PROJET</a>
+    <h2>Mes projets</h2>
+  <p>Vous y trouverez quelques projets, typographique, publicitaire, ou d’identité visuelle.  </p>
+<a href="index2.html" alt="VOIR PROJET">VOIR PROJET</a>
   </div>
 
     <img class="workimg" src="styles/images/800/base.png" alt="ton image"/></a>
@@ -114,10 +132,10 @@
 
 
 
-  <div class="nastyadvert03">
+  <div class="nastyadvert000">
     <div class="container2">
 
-      <h1>Base sous marine de Bordeaux </h1>
+      <h1></h1>
 
       <p></p>
       </div>
@@ -126,71 +144,14 @@
 
 
 
-
-
-
-
-
-    <article class="projet-perso1 flexleft">
-    <div class="chapitre1" id="section4">
-
-      <h2>Typographie</h2>
-    <p>relationships, and thought itself, arrayed like a standing wave in the web of our communications. Ours is a world that is both everywhere and nowhere, but it is not where bodies live.</p>
-<a href="typo.html" alt="VOIR PROJET">VOIR PROJET</a>
-    </div>
-
-      <img class="workimg" src="styles/images/800/r.png" alt="ton image"/></a>
-    </article>
-
-
-
-
-
-  <div class="nastyadvert05">
-    <div class="container3">
-
-      <h1> </h1>
-
-      <p></p>
-      </div>
-    </div>
-
-
-
-
-
-    <article class="projet-id flexright">
-    <div class="chapitre1" id="section3">
-
-      <h2>Apacom</h2>
-    <p>relationships, and thought itself, arrayed like a standing wave in the web of our communications. Ours is a world that is both everywhere and nowhere, but it is not where bodies live.</p>
-
-    </div>
-
-      <img class="workimg" src="styles/images/800/screen2.png" alt="ton image"/></a>
-    </article>
-
-
-
-
-</div>
-
-
-  <div class="nastyadvert06">
-    <div class="container3">
-
-      <h1> </h1>
-
-      <p></p>
-      </div>
-    </div>
 
 
     <article class="projet-perso1 flexright">
-    <div class="chapitre1" id="section3">
+    <div class="chapitre1" id="section7">
 
       <h2>Photographie</h2>
-    <p>relationships, and thought itself, arrayed like a standing wave in the web of our communications. Ours is a world that is both everywhere and nowhere, but it is not where bodies live.</p>
+    <p>J’ai toujours aimé faire de la photo. Elle ouvre beaucoup de portes, à l’expérimentation et à la recherche graphique.
+Ce que je préfère, ce sont les paysages. Mes parents habitants à Biscarosse, j’ai pris goûts aux photographies de l’océan et de ses environs, des landes et de ces vaste étendues de pins …</p>
 
     </div>
 
@@ -198,14 +159,55 @@
     </article>
 
     <section id="portfolio">
-          <img src="styles/images/800/photo4.jpg" alt="This is a protfolio item">
-    <img src="styles/images/800/photo1.jpg" alt="This is a protfolio item">
-    <img src="styles/images/800/photo2.jpg" alt="This is a protfolio item">
-    <img src="styles/images/800/photo3.jpg" alt="This is a protfolio item">
-    <img src="styles/images/800/photo5.jpg" alt="This is a protfolio item">
-    <img src="styles/images/800/photo6.jpg" alt="This is a protfolio item">
-    <img src="styles/images/800/photo7.jpg" alt="This is a protfolio item">
-    <img src="styles/images/800/photo8.jpg" alt="This is a protfolio item">
+
+      <div class=portfolio>
+       <div class=image>
+         <img src="styles/images/800/photo4.jpg" alt="This is a protfolio item">
+       </div>
+      </div>
+
+      <div class=portfolio>
+       <div class=image>
+         <img src="styles/images/800/photo1.jpg" alt="This is a protfolio item">
+       </div>
+      </div>
+
+      <div class=portfolio>
+       <div class=image>
+         <img src="styles/images/800/photo2.jpg" alt="This is a protfolio item">
+       </div>
+      </div>
+
+      <div class=portfolio>
+       <div class=image>
+         <img src="styles/images/800/photo3.jpg" alt="This is a protfolio item">
+       </div>
+     </div>
+
+     <div class=portfolio>
+      <div class=image>
+        <img src="styles/images/800/photo5.jpg" alt="This is a protfolio item">
+      </div>
+    </div>
+
+    <div class=portfolio>
+     <div class=image>
+       <img src="styles/images/800/photo6.jpg" alt="This is a protfolio item">
+     </div>
+   </div>
+
+
+   <div class=portfolio>
+    <div class=image>
+      <img src="styles/images/800/photo7.jpg" alt="This is a protfolio item">
+</div>
+  </div>
+
+  <div class=portfolio>
+   <div class=image>
+     <img src="styles/images/800/photo8.jpg" alt="This is a protfolio item">
+</div>
+ </div>
 
 
       </section>
@@ -219,15 +221,26 @@
   </body>
 
 
+  <div id="footerwrap">
+  		<div class="container">
+  			<div class="row centered">
+  				<div class="col-lg-4">
+  					<p>ELIE GUESDON VENNERIE</p>
+  				</div>
 
-<footer>
-  <ul>
-    <li></li>
-    <li></li>
-    <li></li>
-  </ul>
+  				<div class="col-lg-4">
+  					<p>0698456087</p>
+  				</div>
+  				<div class="col-lg-4">
+  					<p>elieguesdonvennerie@gmail.com</p>
 
-</footer>
+  				</div>
+  			</div>
+  		</div>
+      <a class="insta"  href="https://www.instagram.com/laguesd/?hl=fr#"><img class="instaimg"src="styles/images/insta.png" alt="This is a protfolio item"></a>
+
+  	</div><! --/footerwrap -->
+
 
   </body>
 </html>
