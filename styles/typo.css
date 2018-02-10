@@ -3,7 +3,7 @@ html {
 }
 
 section {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 
 color: #000;
 }
@@ -15,10 +15,6 @@ color: #2f1ed9;
 font-size: 80px;
 margin-right: 0%;
 text-align: left;
-}
-
-p {
-
 }
 
 .header-content-block2 h2 {
@@ -35,113 +31,35 @@ width: 80%;
 span {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: #000;
+  color: #2f1ed9;
   font-size: 70px;
   margin-right: 0%;
-  text-align:left;
-
-}
-
-span1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  color: #fff;
-  font-size: 70px;
-  margin-right: 0%;
-  text-align:left;
-
+  text-align: left;
 }
 
 
-.menu1 li {
-  font-family: 'Poppins', sans-serif;
-font-size: 14px;
-color:#fff;
-text-decoration: none;
-padding:2px;
-font-weight: lighter;
-flex-wrap: wrap;
-}
 
 .menu  {
-  font-family: 'Poppins', sans-serif;
-font-size: 14px;
-color:#000;
-text-decoration: none;
-padding:2px;
-font-weight: normal;
-}
-
-.menu1  {
-  font-family: 'Poppins', sans-serif;
-font-size: 14px;
-color:#fff;
-text-decoration: none;
-padding:2px;
-font-weight: normal;
-}
-
-.menu li {
-  font-family: 'Poppins', sans-serif;
-font-size: 14px;
-color:#000;
-text-decoration: none;
-padding:2px;
-font-weight: normal;
-}
-
-
-
-
-.js-scrollTo1 {
-  font-family: 'Poppins', sans-serif;
-font-size: 14px;
-color:#fff;
-text-decoration: none;
-padding:3px;
-font-weight: normal;
-
-}
-
-.js-scrollTo  {
-  font-family: 'Poppins', sans-serif;
-font-size: 14px;
+  font-family: 'Cutive Mono', monospace;
+font-size: 20px;
 color:black;
 text-decoration: none;
-padding:3px;
-font-weight: normal;
-
+padding-bottom:;
+font-weight: bold;
 }
 
-.menu1 li :hover {
-color: #2f1ed9;
-font-size: 17px;
-font-weight:bold;
-position:fix;
-padding: 3px;
-text-decoration: none;
-}
-
-.menu li :hover {
-color: #2f1ed9;
-font-size: 17px;
-font-weight:bold;
-position:fix;
-padding: 3px;
-text-decoration: none;
-}
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Cutive Mono', monospace;
 
 
-  font-weight: bold;
+  font-weight: 400;
   line-height: 1.45;
   text-align: center;
 }
 
-.nastyadvert08 h1 {
-  font-size: ;
+.nastyadvert h1 {
+  font-size: 70px;
 }
 
 article {
@@ -153,9 +71,7 @@ article {
   color: #000;
 }
 
-p {margin-bottom: 1.3em;
-font-size: 13px;
-}
+p {margin-bottom: 1.3em;}
 
 
 
@@ -166,11 +82,7 @@ h2 {
 
 }
 
-.nastyadvert h1 {
-  text-align: left;
-font-size: 17px;
-padding: 4px;
-}
+
 
 .chapitre1 {
 color: #fff;
@@ -183,42 +95,37 @@ color: #000;
 }
 
 .projet-perso1 h2  {
-color: #000;
+color: #2f1ed9;
 
 }
 
 .projet-perso1 a  {
-  color: #2f1ed9;
-  font-family: 'Montserrat', sans-serif;
-font-size: 1em;
+  color: #000;
+  font-family: 'Cutive Mono', monospace;
+font-size: 2em;
 text-decoration:overline;
 text-align: left;
 
 display: flex;
 }
-
 
 .projet-id a  {
-  color: #2f1ed9;
-  font-family: 'Montserrat', sans-serif;
-font-size: 1em;
+  color: #fff;
+  font-family: 'Cutive Mono', monospace;
+font-size: 2em;
 text-decoration:overline;
 text-align: left;
 
 display: flex;
 }
 
-.titre h2{
-  text-align: left
-}
 
-.container h1 {
+
+h1 {
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
-  font-size: 20px;
-text-align: left;
-font-weight:bold;
-color: #000;
+  font-size: 170px;
+  margin-left: 4em;
 }
 
 h2 {font-size: 4.236em;
